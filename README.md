@@ -1,38 +1,44 @@
-# 📊 Sales & Performance Analytics Dashboard (Power BI)
+# 📊 Sales & Performance Analytics Dashboard
 
-## 📌 Project Overview
-This Power BI project provides an end-to-end interactive dashboard suite designed to analyze business performance across **Sales**, **Employees**, and **Customers**. The solution delivers actionable insights into key revenue drivers, employee productivity, and customer retention metrics.
-
----
-
-## 🛠️ Key Features & Modules
-
-### 1. 📈 Sales Analysis Dashboard
-* **KPI Metrics:** Total Sales ($71M), Total Profit ($25M), Avg Order Value ($706), Target Sales ($74M), and Target Achievement Rate (95%).
-* **Visuals:** Sales trend over years (2018–2024), Regional distribution, Country-wise performance, and Target vs. Actual Sales by Category.
-* **Interactivity:** Slicers for *Payment Method*, *Channel*, and *Total Cost*.
-
-### 2. 👥 Employee Performance Dashboard
-* **KPI Metrics:** Total Employees (50), Top Employee Sales ($2.86M), Avg Sales per Employee ($1.41M), and Sales Growth % (15%).
-* **Visuals:** Top performers leaderboard, Employee role breakdown, Hiring date trends, and detailed performance matrix.
-* **Interactivity:** Slicers for *Roles*, *Channel*, and *Profit range*.
-
-### 3. 🤝 Customer Analysis Dashboard
-* **KPI Metrics:** Total Customers (2K), Repeat Customer % (100%), Avg Order Value ($706), and New Customers (223).
-* **Visuals:** Customer distribution by Country, Loyalty Tier segmentation, Sales by Gender, and Signup trends.
-* **Interactivity:** Slicers for *Loyalty Tier*, *Channel*, and *Date Range*.
+An end-to-end, interactive **Power BI** report designed to track and analyze **Sales Performance**, **Employee Productivity**, and **Customer Behavior**. This dashboard translates complex business data into actionable insights through dynamic KPIs, time-intelligence comparisons, and structured UI/UX design.
 
 ---
 
-## 🎨 UI/UX & Technical Implementation
-* **Design & Hierarchy:** Structured layout with distinct KPI cards, centered charts, and tabular details at the bottom.
-* **Color Palette:** Consistent professional blue color palette with high contrast for readability.
-* **Interactive Navigation:** Dedicated side panel with custom slicers, bookmark-based reset buttons ("Clear all slicers"), and visual navigation icons.
-* **DAX Formulas:** Developed custom measures for time intelligence (YOY Growth), target tracking %, and dynamic aggregations.
+## 📸 Dashboard Overview
+
+### 1. Sales Analysis
+[![Sales Analysis](https://drive.google.com/file/d/1sFKvlh993qxndSu96oH9Y-sfXwwzhaUz/view?usp=sharing)
+](https://drive.google.com/file/d/1sFKvlh993qxndSu96oH9Y-sfXwwzhaUz/view?usp=sharing)* **Key Focus:** Revenue, target achievements, cost ranges, and sales breakdown across regions and categories.
+
+### 2. Employee Analysis
+[![Employee Analysis](./Employee_Analysis.png)](https://drive.google.com/file/d/1Ocutb_iCaDz03ZkacCvohAPzgqKf25Mr/view?usp=sharing)
+* **Key Focus:** Employee productivity, sales growth %, top sales performers, and role-based performance.
+
+### 3. Customer Analysis
+[![Customer Analysis](./Customer_Analysis.png)](https://drive.google.com/file/d/1yhopC0xdJC_luQx4dKbrxXF_DYo0xU2n/view?usp=sharing)
+* **Key Focus:** Customer retention (Repeat Customer %), regional distribution, loyalty tiers, and signup trends.
 
 ---
 
-## 🛠️ Tools & Technologies
-* **Power BI Desktop**
-* **DAX (Data Analysis Expressions)**
-* **Power Query (Data Cleaning & Modeling)**
+## Key Features & Highlights
+
+### 🎯 1. Interactive Slicers & Cross-Filtering (20 Points)
+* **Connected Visuals:** All visual elements across pages are dynamically linked. Selecting a parameter auto-updates all charts and KPI cards in real time.
+* **Filter Panel:** Custom side panel incorporating filters for *Payment Method*, *Channel*, *Total Cost Range*, *Roles*, *Profit Range*, *Loyalty Tier*, and *Date Range*.
+* **Interactive Navigation:** Integrated a custom **"Clear all slicers"** button (using Bookmarks/Action Buttons) to instantly reset filters for a seamless user experience.
+
+### 🎨 2. Professional Dashboard UI/UX Design (15 Points)
+* **Clear Visual Hierarchy:** High-level KPI summary cards are positioned at the top, main dynamic charts in the center, and detailed data tables at the bottom.
+* **Consistent Color Palette:** Applied a modern blue-themed color scheme across all three pages for strong visual consistency and readability.
+* **Uncluttered Layout:** Preserved ample white space and grouped control elements into a sleek left-side navigation bar.
+
+### 📈 3. Target & Period Comparison KPI Cards (15 Points)
+* **Target Tracking (Actual vs. Target):** Compares Total Sales ($71M) against Target Sales ($74M), displaying a dynamic Target Achievement Rate of 95%.
+* **Period Growth & Performance:** Evaluates Year-over-Year (YoY) metrics, featuring Sales Growth (15%), Avg Sales per Employee ($1.41M), and Repeat Customer % (100%).
+
+---
+
+## 🛠️ Tools & Technologies Used
+* **Power BI Desktop:** Data modeling, report creation, and UI/UX design.
+* **DAX (Data Analysis Expressions):** Time-intelligence functions, dynamic target tracking, and custom aggregations.
+* **Power Query:** Data cleaning, transformation, and shaping.
